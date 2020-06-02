@@ -20,6 +20,12 @@ Matlab runtime folder:
 Python evironment: anaconda 2 at /home/jwang/software/anaconda2
 
 When running ICAFIX, R 3.4.3 version is required. The R 3.4-3 is installed using anaconda 3. YOU have to change python evironment to anaconda3.
+'kernlab' version 0.9.24, 'party' version 1.0.25, 'e1071' version 1.6.7 or  'randomForest' version 4.6.12
+
+In R, runing:
+require(devtools)
+install_version("party", version="1.0-25")
+
 
 Anaconda 3 at /home/jwang/anaconda3
 
